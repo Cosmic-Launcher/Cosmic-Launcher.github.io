@@ -1,7 +1,7 @@
 function downloadLauncher() {
     var link = document.createElement('a');
-    link.href = 'https://github.com/Cosmic-Launcher/Cosmic-Launcher/releases/download/v1.1/cosmic-launcher-v1.1.jar';
-    link.download = 'cosmic-launcher-v1.1.jar';
+    link.href = 'https://github.com/Cosmic-Launcher/Cosmic-Launcher/releases/download/v1.2/cosmic-launcher-v1.2.jar';
+    link.download = 'cosmic-launcher-v1.2.jar';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
